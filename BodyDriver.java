@@ -17,7 +17,7 @@ public class BodyDriver {
 	System.out.println(earth.toString());
 	
 	// This uses the third constructor, one parameter
-	Body moon = new Body("Chuck");
+	Body moon = new Body("Chuck", earth);
 	moon.orbits = earth;
 	System.out.println(moon.toString());
 	
@@ -26,7 +26,8 @@ public class BodyDriver {
 	lance.name = "Lance";
 
 	System.out.println(lance.toString());
-	}
+}
+
 }
 
 
