@@ -28,6 +28,16 @@ public class BodyDriver {
 
 	System.out.println(lance.toString());
 	
+	Body jupiter = new Body("Jupiter");
+	jupiter.orbits = sun;
+	System.out.println(jupiter.toString());
+
+	Body jmoon = new Body("lo");
+	jmoon.orbits = jupiter;
+	jmoon.name = "lo";
+
+	System.out.println(lo.toString());
+ 
 }
 
 }
